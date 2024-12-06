@@ -3,6 +3,8 @@ This repository contains a nodeJS script that takes as an argument the PDF file 
 
 <img width="820" alt="image" src="https://github.com/user-attachments/assets/b7b56e38-2022-4354-bafd-107b33c0c214">
 
+This script breaks down a PDF into chunks of 5 pages each then runs all chunks in parallel multi-thread to 1 thread per chunk. The result of all chunks will be merged back into 1 PDF file.
+
 Note: these examples are not an officially-supported product or recommended for production deployment without further review, testing, and hardening. Use with caution, this is sample code only.
 
 ## Use the script
